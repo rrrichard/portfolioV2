@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mainText{
+    text-align: center;
+    font-size: 24px;
+    height: 100px;
+}
+
+.mainText h2{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.forms textarea{
+    float: right;
+    height: 100px;
+    width: 600px;
+}
+
+form {
+    overflow: auto;
+}
+
+form input{
+    float:left;
+}
+
+.forms p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formSize {
+    margin: 100px auto;
+    overflow: auto;
+}
+
+.edit{
+    margin-top: 10px;
+}
+
+.submit{
+    margin-top: 10px;
+}
+
+.editParaRight {
+    float:right;
+}
+
+.logout {
+    text-align: center;
+}

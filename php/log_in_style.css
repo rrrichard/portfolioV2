@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.logIn {
+    height: 100%;
+    background-image: url("../images/admin_page_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.inputBoxes {
+    width: 200px;
+
+}
+
+form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form input{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
