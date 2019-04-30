@@ -7,7 +7,10 @@ $db = getDbConnection();
 $logInDetails = getDetails($db);
 $dbUsername = $logInDetails['username'];
 $dbPassword = $logInDetails['password'];
-$passwordCheck = password_verify($_POST['password'], $dbPassword);
+
+if(isset($_POST['password'])){
+    $passwordCheck = password_verify($_POST['password'], $dbPassword);
+}
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $postUsername = $_POST['username'];
