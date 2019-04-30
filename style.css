@@ -57,7 +57,8 @@ header li a {
 
 .featureImage  {
     text-align: center;
-    height: 1100px;
+    height: 1200px;
+    /*height: 100vh;*/
     background-image: url("images/featureimage.jpg");
     background-size: cover;
     background-position: center;
@@ -119,13 +120,18 @@ header li a {
     padding: 0 30px;
 }
 
+.workSection{
+    height: 330px;
+}
+
+
 .projectBox {
     text-align: center;
     width: 33.3%;
     height: 330px;
     float: left;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    opacity: 0.5;
+    opacity: 0.8;
     transition: all 0.3s;
 }
 
@@ -156,7 +162,8 @@ header li a {
 
 .projectBox:hover {
     opacity: 1;
-    transform: scale(0.9);
+    transform: scale(0.98);
+    /*transition-duration: 1s;*/
 }
 .projectBox:hover h3 {
     display: block;
@@ -185,20 +192,20 @@ header li a {
 }
 
 .project2 {
-    background-image: url("images/maydenlogo.png");
-    background-size: contain;
+    background-image: url("images/workprogress1.gif");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .project3 {
-    background-image: url("images/workprogress1.jpg");
+    background-image: url("images/workprogress2.png");
     background-size: cover;
     background-position: center;
 }
 
 .project4 {
-    background-image: url("images/workprogress2.jpg");
+    background-image: url("images/workprogress2.gif");
     background-size: cover;
     background-position: center;
 }
@@ -208,7 +215,7 @@ header li a {
     background-position: center;
 }
 .project6 {
-    background-image: url("images/workprogress4.jpg");
+    background-image: url("images/workprogress4.gif");
     background-size: cover;
     background-position: center;
 }
@@ -439,5 +446,17 @@ footer a:visited {
 
     .navBar li:hover {
         border: 2px solid #7a7678;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .projectBox {
+        height: 400px;
+    }
+    .featureImage {
+        height: 1400px;
+    }
+    .featureImage h1 {
+        margin-top: 100px;
     }
 }
