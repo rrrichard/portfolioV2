@@ -69,6 +69,15 @@ $paragraphResult = addParagraphs($paragraphs);
             </div>
         </div>
     </section>
+    <section class="otherWork">
+        <h2>Other Works</h2>
+        <h4>Feb 11 2019</h4>
+        <div class="line">
+        </div>
+        <div class="circle">
+        </div>
+        <div class="line">
+    </section>
     <section class="aboutMe container">
         <a name="about"></a>
         <div>
