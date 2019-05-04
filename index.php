@@ -34,17 +34,26 @@ $paragraphResult = addParagraphs($paragraphs);
     </header>
     <section class="portfolio">
         <a id="feature" name="feature"></a>
-        <div>
+        <div class="workSection">
             <h3>PORTFOLIO</h3>
             <div class="projectBox project1 projectDone">
-                <h3>PROJECT 1</h3>
+                <h3>
+                        PROJECT 1
+                </h3>
             </div>
             <div class="projectBox project2 projectDone">
-                <h3>PROJECT 2</h3>
+                <h3>
+                    <a href="https://github.com/rrrichard/solarv2" target="_blank">
+                        PROJECT 2
+                    </a>
+                </h3>
             </div>
-            <div class="projectBox project3">
-                <h4>PROJECT 3</h4>
-                <p>UNDER CONSTRUCTION</p>
+            <div class="projectBox project3 projectDone">
+                <h3>
+                    <a href="https://dev.maydenacademy.co.uk/projects/2019Feb/2019-paint-app/" target="_blank">
+                        PROJECT 3
+                    </a>
+                </h3>
             </div>
             <div class="projectBox project4">
                 <h4>PROJECT 4</h4>
@@ -59,6 +68,15 @@ $paragraphResult = addParagraphs($paragraphs);
                 <p>UNDER CONSTRUCTION</p>
             </div>
         </div>
+    </section>
+    <section class="otherWork">
+        <h2>Other Works</h2>
+        <h4>Feb 11 2019</h4>
+        <div class="line">
+        </div>
+        <div class="circle">
+        </div>
+        <div class="line">
     </section>
     <section class="aboutMe container">
         <a name="about"></a>

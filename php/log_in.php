@@ -1,8 +1,10 @@
 <?php
 require_once 'log_in_verify.php';
 
-if ($_SESSION['valid'] == true){
-    header('Location: admin_page.php');
+if (isset($_SESSION['valid'])){
+    if ($_SESSION['valid'] == true){
+        header('Location: admin_page.php');
+    }
 }
 
 if (isset($_POST['logout'])){
@@ -10,10 +12,7 @@ if (isset($_POST['logout'])){
     session_unset();
     header('Location: log_in.php');
     exit;
-
 }
-
-
 
 ?>
 
