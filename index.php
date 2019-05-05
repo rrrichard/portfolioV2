@@ -74,9 +74,20 @@ $paragraphResult = addParagraphs($paragraphs);
         <h4>Feb 11 2019</h4>
         <div class="line">
         </div>
-        <div class="circle">
-        </div>
-        <div class="line">
+            <div class="circleContainer">
+                <img src="images/workprogress1.jpg" alt="" class="circleImage">
+                <div class="overlay">
+                    <div class="circleText">Hello World</div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="circleContainer">
+                <img src="images/workprogress1.jpg" alt="" class="circleImage">
+                <div class="overlay">
+                    <div class="circleText">Hello World</div>
+                </div>
+            </div>
+        <div class="line"></div>
     </section>
     <section class="aboutMe container">
         <a name="about"></a>
