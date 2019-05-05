@@ -252,26 +252,64 @@ header li a {
     border: 1px solid black;
 }
 
+
 .otherWork {
     text-align: center;
 }
+
 .line {
     width: 2px;
-    height: 150px;
+    height: 100px;
     background-color: #747474;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
-.circle {
+.circleContainer {
+    position: relative;
     width: 200px;
     height: 200px;
-    background-image: url("images/workprogress1.jpg");
-    background-size: cover;
-    background-position: center;
+    margin: 0 auto;
     border-radius: 50%;
-
-    margin: 10px auto;
 }
+
+.circleImage {
+    /*display: block;*/
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 50%;
+}
+
+.circleContainer:hover .overlay {
+    opacity: 1;
+}
+
+.circleText {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 /*CONTACT ME*/
 
 footer {
